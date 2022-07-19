@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
+.wedding{
+     width: 100%;
+     min-height: 110vh;
+     background-size: cover; 
+    background-image: url(../../Assets/Foto.jpg); 
+    background-position: center;
+     background-repeat: no-repeat;
+}
+.waves{
+  width: 100% ;
+  max-height: 800px;
+  background-size: cover;
+  vertical-align: bottom;
+  position: left; 
+  
+}
+.textwedding1 {
+  font-size: 16px !important;
+  color: whitesmoke;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  text-align: center;
+}
+.textwedding{
+padding-top: 300px;
+}
+.textwedding2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px !important;
+  font-family: 'Great Vibes', cursive;
+  /* padding-left: 45px !important; */
+  color: #fade6a;
+  position: relative;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+}

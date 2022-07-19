@@ -1,0 +1,25 @@
+.groom{
+    background-image:url(../../Assets/white.jpg);
+    width: 100%;
+     min-height: 110vh;
+     background-size: cover; 
+    background-position: center;
+     background-repeat: no-repeat;
+}
+.brideText{
+    padding-top: 90px;
+    font-size: 30px !important;
+  font-family: 'Great Vibes', cursive;
+  color: #fade6a;
+}
+.groomText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.figure{
+        padding-right:50px 
+}
+.image2{
+    border-radius: 50%;
+}

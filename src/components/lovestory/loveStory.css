@@ -1,0 +1,23 @@
+.padd{
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+    
+}
+.cardlove {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardtext{
+    text-align: start;
+}
+
+.cardtitle{
+    text-align: start;
+}
+.cardimg{
+    max-width: 200px !important;
+    height: 400px !important;
+    
+}
+.colimg{
+    padding-top: 200px;
+}

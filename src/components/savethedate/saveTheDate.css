@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
+.savethedate{
+    width: 100%;
+     min-height: 110vh;
+     background-size: cover; 
+    background-image: url(../../Assets/Foto.jpg); 
+    background-position: center;
+     background-repeat: no-repeat;
+}
+.STD{
+    padding-top:80px !important;
+}
+/* Countdown */
+
+/* general styling */
+
+.textCd {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+    color: white;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+    color: white;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    .textCd {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
+.home-section {
+    position: relative;
+    z-index: -1; 
+     width: 100%;
+     min-height: 100vh;
+     background-size: cover; 
+    background-image: url(../../Assets/home-bg.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+  }
+  .home-content{
+    
+  }
+  .home-header {
+    text-align: center;
+    padding-top: 120px;
+
+  }
+  .home-content {
+    color: whitesmoke;
+    text-align: left;
+  }
+  .heading {
+    font-size: 16px !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  
+  .heading-name {
+    font-size: 50px !important;
+    font-family: 'Great Vibes', cursive;
+    /* padding-left: 45px !important; */
+    color: #fade6a;
+    position: relative;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  .text{
+    font-size: 21px !important;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  .text1{
+    font-size: 13px !important;
+    color: whitesmoke;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  .text2{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  .text3{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+  }
+  .tombol{
+    text-align: center;
+  }
+
+/* Button */
+.button{
+  
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+}
+.enve{
+  size: 15px;
+}

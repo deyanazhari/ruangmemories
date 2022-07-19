@@ -1,0 +1,16 @@
+.rsvpBack{
+    position: relative;
+    z-index: -1; 
+     width: 100%;
+     min-height: 100vh;
+     background-size: cover; 
+    background-image: url(../../Assets/home-bg.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+}
+.cardrsvp{
+    max-width: 900px;
+}
+.form-text{
+    text-align: start;
+}

@@ -1,0 +1,17 @@
+.instagram{
+    position: relative;
+    z-index: -1; 
+     width: 100%;
+     min-height: 90vh;
+     background-size: cover; 
+    background-image: url(../../Assets/white.jpg); 
+    background-position: center;
+     background-repeat: no-repeat;
+}
+
+.cardif{
+    padding-top: 80px !important;
+}
+.textif{
+    font-size: 15px !important;
+}
