@@ -8,6 +8,7 @@ import Love from "../lovestory/loveStory.jsx"
 import Gallery from "../ourgallery/ourGallery.jsx"
 import Instagram from "../instagramfilter/instagramFilter.jsx"
 import Rsvp from "../rsvp/rsvp.jsx"
+import Gift from "../weddinggift/weddingGift"
 import {FcInvite} from "react-icons/fc";
 function Home(){
     return (
@@ -56,6 +57,7 @@ function Home(){
 <Gallery/>
 <Instagram/>
 <Rsvp/>
+<Gift/>
 </>
     );
 }
