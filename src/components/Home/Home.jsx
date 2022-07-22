@@ -9,6 +9,8 @@ import Gallery from "../ourgallery/ourGallery.jsx"
 import Instagram from "../instagramfilter/instagramFilter.jsx"
 import Rsvp from "../rsvp/rsvp.jsx"
 import Gift from "../weddinggift/weddingGift"
+import Stayssafe from "../stayssafe/staysSafe"
+import Footer from "../footer/Footer"
 import {FcInvite} from "react-icons/fc";
 function Home(){
     return (
@@ -41,8 +43,7 @@ function Home(){
               <div className=" mx-auto">
               <Button 
               variant="light"
-              className="button"
-             
+              className="button but"
               ><FcInvite className="enve"/> Open Invitation</Button>{' '}
               </div>
             </Col>
@@ -58,6 +59,8 @@ function Home(){
 <Instagram/>
 <Rsvp/>
 <Gift/>
+<Stayssafe/>
+<Footer/>
 </>
     );
 }

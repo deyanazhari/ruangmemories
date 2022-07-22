@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
 .wedding{
      width: 100%;
-     min-height: 110vh;
+     height: 110vh;
      background-size: cover; 
-    background-image: url(../../Assets/Foto.jpg); 
+     background-image:linear-gradient(0deg, rgba(57,60,59,1) 30%, rgba(57,60,59,0.020045518207282953) 100%), url(../../Assets/Gallery/image6.jpg);
     background-position: center;
      background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@
   text-align: center;
 }
 .textwedding{
-padding-top: 300px;
+padding-top: 200px;
 }
 .textwedding2 {
   padding-top: 10px;
@@ -33,4 +33,31 @@ padding-top: 300px;
   color: #fade6a;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+}
+.imgwed{
+  height: 65px !important;
+  width: 55px !important;
+  
+  max-width: 100% !important;
+}
+.textwed{
+  color: #ffff;
+  font-family: 'Great Vibes', cursive;
+  /* padding-left: 45px !important; */
+  font-size: 26px;
+}
+.textwed1{
+  color:#ffff;
+  font-family: 'Nunito', sans-serif;
+  font-weight:300;
+  font-size: 15px;
+}
+.logowed{
+  padding-top: 200px !important;
+}
+@media screen and (max-width:540px){
+  .wedding{
+    height: 85vh;
+  }
+  
 }

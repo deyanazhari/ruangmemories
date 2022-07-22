@@ -1,0 +1,21 @@
+.backfooter{
+    position: relative;
+    z-index: -1; 
+     width: 100%;
+     min-height: 100vh;
+     background-size: cover; 
+    background-image: linear-gradient(0deg, rgba(57,60,59,1) 64%, rgba(253,187,45,0) 100%), url(../../Assets/Gallery/image6.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+}
+.textfooter{
+    color: white;
+}
+.rowfooter{
+    padding-top: 200px !important;
+}
+@media screen and (max-width:540px){
+    .rowfooter{
+        padding-top: 250px !important;
+    }
+}

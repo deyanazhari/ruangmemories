@@ -1,0 +1,14 @@
+.icon{
+    width: 100px !important;
+    height: 90px !important;
+}
+
+.back{
+     width: 100%;
+     min-height: 50vh;
+    background-color:#393c3b;
+}
+
+.textstay{
+    color:white
+}

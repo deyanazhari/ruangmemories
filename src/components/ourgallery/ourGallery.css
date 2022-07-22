@@ -2,3 +2,7 @@
     background-color: #393C3B;
     max-height: max-content;
 }
+
+.gallery{
+    border-radius: 5px !important;
+}

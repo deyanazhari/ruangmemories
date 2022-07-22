@@ -7,17 +7,51 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .cardtext{
-    text-align: start;
+    text-align:justify;
 }
 
 .cardtitle{
     text-align: start;
 }
 .cardimg{
-    max-width: 200px !important;
-    height: 400px !important;
+    max-width: 100px !important;
+    height: 200px !important;
+    
+}
+.cardimg1{
+    max-width: 100px !important;
+    height: 200px !important;
     
 }
 .colimg{
-    padding-top: 200px;
+    padding-top: 10px !important;
+    padding-left: 50px !important;
 }
+.colimg1{
+    padding-top: 10px !important;
+    padding-right:50px !important
+}
+
+@media screen and (min-width:540px){
+    
+    .cardimg{
+        max-width: 100% !important;
+        width: 319px !important;
+        height: 553px !important;
+        
+        
+        
+    }
+    .cardimg1{
+        max-width: 100% !important;
+        width: 319px !important;
+        height: 553px !important;
+        
+    }
+    .colimg{
+        padding-top: 200px !important;
+    }
+    .colimg1{
+        padding-top: 180px !important;
+    }
+    }

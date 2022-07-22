@@ -8,18 +8,45 @@
 }
 .brideText{
     padding-top: 90px;
-    font-size: 30px !important;
+    font-size: 25px !important;
   font-family: 'Great Vibes', cursive;
-  color: #fade6a;
+  color: #9f9263;
 }
 .groomText{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
     padding-bottom: 50px;
+    letter-spacing: 0.7px;
 }
-.figure{
-        padding-right:50px 
+.danText{
+    font-family: 'Great Vibes', cursive;
+  color: #9f9263;
 }
+
 .image2{
     border-radius: 50%;
+}
+.figtext{
+    font-family: 'Great Vibes', cursive;
+    color: #393c3b;
+    font-size:72px;
+    padding-right: 20px;
+}
+.figtext1{
+    font-family: 'Playfair Display', serif;
+    color: #393c3b;
+    font-weight: 400;
+    font-style: italic;
+    font-size:20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:540px){
+.fig1{
+    padding-left: 200px !important;
+}
+.fig2{
+    padding-right: 200px !important;
+}
 }

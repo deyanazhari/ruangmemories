@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
 .home-section {
     position: relative;
     z-index: -1; 
      width: 100%;
-     min-height: 100vh;
+     height: 100vh;
      background-size: cover; 
-    background-image: url(../../Assets/home-bg.jpg);
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Gallery/image5.jpg);
     background-position: center;
      background-repeat: no-repeat;
   }
@@ -27,7 +26,7 @@
   }
   
   .heading-name {
-    font-size: 50px !important;
+    font-size: 65px !important;
     font-family: 'Great Vibes', cursive;
     /* padding-left: 45px !important; */
     color: #fade6a;
@@ -44,25 +43,27 @@
   .text1{
     font-size: 13px !important;
     color: whitesmoke;
-    padding-top: 30px;
+    padding-top: 60px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
   }
   .text2{
     font-size: 16px !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: whitesmoke;
-    padding-top: 10px;
+    font-weight: 700;
+    padding-top: 7px;
     text-align: center;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
   }
   .text3{
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     text-align: center;
     text-shadow: 1px 1px 3px black;
@@ -75,7 +76,7 @@
 /* Button */
 .button{
   
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 500;
@@ -83,4 +84,18 @@
 }
 .enve{
   size: 15px;
+}
+.but{
+  border-radius: 20px;
+}
+
+@media screen and (max-width:540px){
+  .home-section {
+    height: 70vh !important;
+  }
+  .heading-name {
+    font-size: 40px !important;
+  }
+      
+  
 }

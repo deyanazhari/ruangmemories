@@ -18,7 +18,7 @@ function loveStory(){
             >
                 <Card.Body>
                 <Row g={0}>
-                        <Col md={4}>
+                <Col md={4} className="col-12">
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
                             <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
@@ -32,11 +32,12 @@ function loveStory(){
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
                             <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                         </Col>
-                    <Col md={6} className="colimg">
-                        <Card.Img md={8} thumbnail float-right className="cardimg img-thumbnail" src={model1}/>
-                        <Card.Img md={8} thumbnail float-right className="cardimg img-thumbnail" src={model1}/>
-                    </Col>
-                        
+                        <Col md={4} className="colimg col-6 ">
+                        <img src={model1} className="rounded img-thumbnail cardimg"/>
+                        </Col>
+                        <Col md={4}  className="colimg1 col-6">
+                        <Card.Img   className="rounded img-thumbnail cardimg1" src={model1}/>
+                        </Col>
                 </Row>
                 </Card.Body>
             </Card>

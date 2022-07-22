@@ -3,7 +3,7 @@
     width: 100%;
      min-height: 110vh;
      background-size: cover; 
-    background-image: url(../../Assets/Foto.jpg); 
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Foto.jpg); 
     background-position: center;
      background-repeat: no-repeat;
 }
@@ -13,6 +13,11 @@
 /* Countdown */
 
 /* general styling */
+
+.contCd{
+  margin: 0 auto;
+  text-align: center;
+}
 
 .textCd {
     font-weight: normal;
@@ -26,14 +31,13 @@
     display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
-    padding: 1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
     color: white;
+    padding-right: 20px !important;
   }
   
   li span {
-    display: block;
     font-size: 4.5rem;
   }
   
@@ -46,7 +50,45 @@
     font-size: 4rem;
     padding: 0 .5rem;
   }
-  
+  .fontSave{
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+  }
+  .fontSat{
+    font-family: 'Great Vibes', cursive;
+    font-size: 41px;
+    color: #9f9263;
+  }
+  .font2nd{
+    font-family: 'Faustina', serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #393c3b;
+  }
+  .fontAkad{
+    font-family: 'Faustina', serif;
+    font-weight: 500;
+    color: #393c3b;
+    font-size: 20px;
+  }
+  .fontAt{
+    font-family: 'Faustina', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7a7a7a;
+  }
+  .fontArkava{
+    font-family: 'Faustina', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #7a7a7a;
+  }
+  .fontJl{
+    font-family: 'Faustina', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7a7a;
+  }
   @media all and (max-width: 768px) {
     .textCd {
       font-size: calc(1.5rem * var(--smaller));
@@ -60,3 +102,11 @@
       font-size: calc(3.375rem * var(--smaller));
     }
   }
+  @media screen and (min-width:540px){
+    li {
+      padding: 10px;
+      
+    }
+        
+    
+}
