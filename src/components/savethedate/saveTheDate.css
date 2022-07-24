@@ -10,6 +10,9 @@
 .STD{
     padding-top:80px !important;
 }
+.cardstd{
+  max-width: 450px !important;
+}
 /* Countdown */
 
 /* general styling */

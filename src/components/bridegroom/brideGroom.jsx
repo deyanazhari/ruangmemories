@@ -8,10 +8,10 @@ function brideGroom(){
         <>
         <Container fluid className="groom">
             <div>
-                <h1 className="brideText">
+                <h1 className="brideText" data-aos="zoom-in" data-aos-duration="3000">
                     Bride and Groom
                 </h1>
-                <h1 className="groomText pt-2">
+                <h1 className="groomText pt-2" data-aos="zoom-in" data-aos-duration="2000">
                 We would like to invite you to witness and be a part of our new beginning.
                 </h1>
             </div>
@@ -19,11 +19,11 @@ function brideGroom(){
                 <Col md={5} className="rounded float-center col-12">
                     <figure className=" figure fig1 ">
                     <img src={model2} class=" rounded-circle"
-                    style={{width:200, height:200}}
+                    style={{width:200, height:200}} data-aos="zoom-in" data-aos-duration="2000"
                     />
-                    <figcaption class="figure-caption text-center figtext">Vicky</figcaption>
-                    <figcaption class="figure-caption text-center figtext1">Siti Hutami Novickirana</figcaption>
-                    <figcaption class="figure-caption text-center ">Second Daughter of Mr. Ilyas Ibrahim and <br/>
+                    <figcaption class="figure-caption text-center figtext" data-aos="fade-up" data-aos-duration="2000">Vicky</figcaption>
+                    <figcaption class="figure-caption text-center figtext1" data-aos="fade-up" data-aos-duration="2000">Siti Hutami Novickirana</figcaption>
+                    <figcaption class="figure-caption text-center " data-aos="fade-up" data-aos-duration="2000">Second Daughter of Mr. Ilyas Ibrahim and <br/>
                     Mrs. Ratna Ningrum</figcaption>
                     </figure>
                 </Col>
@@ -32,10 +32,10 @@ function brideGroom(){
                 </Col>
                 <Col md={5} className="col-12 rounded float-start">
                     <figure className="figure fig2">
-                    <img src={model1} class=" rounded-circle " style={{width:200, height:200}}/>
-                    <figcaption class="figure-caption text-center figtext">Yudha</figcaption>
-                    <figcaption class="figure-caption text-center figtext1">Muhammad Yudha Yusi Putra</figcaption>
-                    <figcaption class="figure-caption text-center ">First Son of Mr. Mansyur and <br/>
+                    <img src={model1} class=" rounded-circle " style={{width:200, height:200}} data-aos="zoom-in" data-aos-duration="2000"/>
+                    <figcaption class="figure-caption text-center figtext" data-aos="fade-up" data-aos-duration="2000">Yudha</figcaption>
+                    <figcaption class="figure-caption text-center figtext1" data-aos="fade-up" data-aos-duration="2000">Muhammad Yudha Yusi Putra</figcaption>
+                    <figcaption class="figure-caption text-center " data-aos="fade-up" data-aos-duration="2000">First Son of Mr. Mansyur and <br/>
                     Mrs. Nidawati 
                     </figcaption>
                     </figure>

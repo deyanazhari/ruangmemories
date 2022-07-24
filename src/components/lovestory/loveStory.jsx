@@ -20,17 +20,17 @@ function loveStory(){
                 <Row g={0}>
                 <Col md={4} className="col-12">
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Title className="cardtitle" data-aos="fade-up">April 2021 - First Date</Card.Title>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                             <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
-                            <Card.Title className="cardtitle">April 2021 - First Date</Card.Title>
-                            <Card.Text className="cardtext">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
+                            <Card.Text className="cardtext" data-aos="fade-up">We first met online due to a pandemic. After texting for almost a week, we decided to meet in person. Since it was Ramadhan, we planned to have breakfast together at Kimukatsu, Grand Indonesia.</Card.Text>
                         </Col>
                         <Col md={4} className="colimg col-6 ">
                         <img src={model1} className="rounded img-thumbnail cardimg"/>

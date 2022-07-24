@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect } from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import './Home.css';
 import Wedding from "../weddinginvitation/weddingInvitation.jsx"
@@ -12,18 +12,25 @@ import Gift from "../weddinggift/weddingGift"
 import Stayssafe from "../stayssafe/staysSafe"
 import Footer from "../footer/Footer"
 import {FcInvite} from "react-icons/fc";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Home(){
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
         <>
-<Container fluid className="home-section " id="home">
+<Container fluid className="home-section " id="home" data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
     <Container  className="home-content">
         <Row>
         <Col  className="home-header">
-              <h1 className="heading">
+              <h1 className="heading" data-aos="zoom-in" data-aos-duration="2000">
                 The Wedding of
                 
               </h1>
-              <h1 className="heading-name">
+              <h1 className="heading-name" data-aos="zoom-in" data-aos-duration="3000">
                 Vicky & Yudha
                 {/* <strong className="main-name"> SOUMYAJIT BEHERA</strong> */}
               </h1>
@@ -56,9 +63,9 @@ function Home(){
 <Save/>
 <Love/>
 <Gallery/>
-<Instagram/>
+{/* <Instagram/> */}
 <Rsvp/>
-<Gift/>
+{/* <Gift/> */}
 <Stayssafe/>
 <Footer/>
 </>

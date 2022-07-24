@@ -8,19 +8,19 @@ function rsvp (){
         <Container fluid className="rsvpBack">
             <Container fluid className="rsvpFront">
                 <Row className="pt-5">
-                <Card className="mb-3 mx-auto cardrsvp">
+                <Card className="mb-3 mx-auto cardrsvp card-color">
                         <Card.Body>
                         <Row className="g-0">
                         <Col md={4}>
-                        <Card.Title className="text-start">
+                        <Card.Title className="text-start font-rsvp">
                         Rsvp
                         </Card.Title>
-                        <Card.Text className="text-start">Please kindly help us prepare everything better by confirming your attendance to our wedding event with the following RSVP form :</Card.Text>
+                        <Card.Text className=" font-prep">Please kindly help us prepare everything better by confirming your attendance to our wedding event with the following RSVP form :</Card.Text>
                         </Col>
                         <Col md={8}>
                         <Form md={8}>
                             <Form.Group className="mb-3 text-left" controlId="formBasicEmail">
-                            <Card.Title className="text-start">
+                            <Card.Title className="text-start" style={{color:'white'}} >
                         Rsvp
                         </Card.Title>
                                 <Form.Control type="name" placeholder="Enter Name" />
@@ -35,9 +35,11 @@ function rsvp (){
                             <Form.Check 
                             type="radio"
                             id="checkbox"
+                            style={{color:'white'}}
                             label="Yes. I will attend"
                              />
                              <Form.Check 
+                             style={{color:'white'}}
                             type="radio"
                             id="checkbox"
                             label="Sorry, I can't attend"
@@ -54,11 +56,11 @@ function rsvp (){
                 </Card>
                 </Row>
                 <Row className="pt-5">
-                <Card className="mb-3 mx-auto cardrsvp">
+                <Card className="mb-3 mx-auto cardrsvp card-color">
                         <Card.Body>
                         <Row className="g-0">
                         <Col md={4}>
-                        <Card.Title>
+                        <Card.Title className="font-wishes">
                         Wishes
                         </Card.Title>
                         </Col>
@@ -75,11 +77,46 @@ function rsvp (){
                             </Button>
                             </Form>
                             <Row className="pt-2">
-                            <Card border="primary" className="pb-3">
+                            <Card className="pb-3 message-color border-0 ">
                             <Card.Body >
-                            <Card.Title className="text-start">
-                            Rsvp
-                            </Card.Title>
+                            <Row className="overflow-auto scroll-message" id="myscroll">
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul> 
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul>   
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul>   
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul>   
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul>   
+                                <ul>
+                                <Card>
+                                <Card.Title className="fontli">Deyan</Card.Title>
+                                <Card.Text className="fontli">Congratulations yudha and Vicky. Semoga langgeng Dan selalu diliputi kebahagiaan serta rasa syukur, semoga lancar pernikahan nya</Card.Text>
+                                </Card>
+                                </ul>                          
+                            </Row>
                             </Card.Body>
                             </Card>
                             </Row>

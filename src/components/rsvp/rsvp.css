@@ -1,10 +1,8 @@
 .rsvpBack{
-    position: relative;
-    z-index: -1; 
      width: 100%;
      min-height: 100vh;
      background-size: cover; 
-    background-image: url(../../Assets/home-bg.jpg);
+     background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Gallery/image10.jpg);
     background-position: center;
      background-repeat: no-repeat;
 }
@@ -13,4 +11,48 @@
 }
 .form-text{
     text-align: start;
+}
+.flow{
+    overflow:scroll;
+}
+.cardcomment{
+    width:400px !important;
+    max-height : 50px;
+}
+.card-color{
+    background-color: #0b0c0c5b;
+    max-width: 650px !important;
+}
+.message-color{
+    background-color: #00000000;
+}
+.fontli{
+    font-size: 10px;
+    text-align: justify;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    color: #555f77;
+}
+
+.font-wishes{
+    color:#ad9f69;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    padding-top: 120px !important;
+}
+.font-prep{
+    color:white;
+    font-family: 'Faustina', sans-serif;
+    padding-right:5px;
+    font-size: 10px;
+    text-align: justify;
+}
+.font-rsvp{
+    color:#ad9f69;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+.scroll-message{
+    height:100px !important;
+    max-width:500px !important;
 }

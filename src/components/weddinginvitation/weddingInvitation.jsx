@@ -8,12 +8,13 @@ function weddingInvitation(){
     
     return(
         <>
-        <Container fluid className="wedding img-fluid" id="wedding">
+        <Container fluid className="wedding img-fluid slide-up" id="wedding" data-aos="fade-down"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
         <div className="textwedding">
-        <h2 className="textwedding1 mx-auto text-center">
+        <h2 className="textwedding1 mx-auto text-center" data-aos="zoom-in">
             Wedding Invitation
         </h2>
-        <h2 className="textwedding2 mx-auto text-center ">Vicky & Yudha</h2>
+        <h2 className="textwedding2 mx-auto text-center " data-aos="zoom-in" data-aos-duration="2000">Vicky & Yudha</h2>
         <div className="mx-auto">
         <Button 
               variant="light"
@@ -22,10 +23,10 @@ function weddingInvitation(){
               </div>
         </div>
         <div className="mx-auto text-center logowed">
-            <img className="imgwed" src={wedding}/>
+            <img className="imgwed"/>
             <h1 className="textwed" >Vicky & Yudha</h1>
-            <h1 className="textwed1">"And one of His signs is that He created mates for you from yourselves that you may find rest in them, and <br/> He put between you love and compassion; most surely there are signs in this for a people who reflect.”</h1>
-            <p style={{color:'white'}}>(QS Ar-Rum : 21)</p>
+            <h1 className="textwed1"data-aos="zoom-in" data-aos-duration="2000">"And one of His signs is that He created mates for you from yourselves that you may find rest in them, and <br/> He put between you love and compassion; most surely there are signs in this for a people who reflect.”</h1>
+            <p style={{color:'white'}} data-aos="zoom-in" data-aos-duration="2000">(QS Ar-Rum : 21)</p>
         </div>
         
         </Container>

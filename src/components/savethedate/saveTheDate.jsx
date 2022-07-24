@@ -8,13 +8,13 @@ function saveTheDate(){
         <Container fluid className="savethedate">
             <Container>
             <div className="STD">
-                <h1 style={{color:"white"}} className="fontSave" >Save The Date</h1>
+                <h1 style={{color:"white"}} className="fontSave" data-aos="zoom-in" data-aos-duration="2000">Save The Date</h1>
             </div>
         <div className="row">
             <div className="col-sm-6 my-4 ">
-                <div className="card justify-content-end" style={{width:450}}>
+                <div className="card justify-content-end cardstd" data-aos="zoom-in" data-aos-duration="3000">
                     <div className="card-body" >
-                        <h5 className="card-title fontSat">Saturday</h5>
+                        <h5 className="card-title fontSat" data-aos="zoom-in" data-aos-duration="4000" data-aos-delay="300">Saturday</h5>
                         <p className="card-text font2nd">2nd July 2022</p>
                         <h5 className="card-title fontAkad">Akad</h5>
                         <p className="card-text fontAt">AT: 4:30 - 5:30 PM</p>
@@ -25,15 +25,15 @@ function saveTheDate(){
                 </div>
             </div>
             <div className="col-sm-6 my-4 ">
-                <div className="card">
-                    <div className="card-body">
-                        <h5 className="card-title">Saturday</h5>
-                        <p className="card-text">2nd July 2022</p>
-                        <h5 className="card-title">Reception</h5>
-                        <p className="card-text">AT: 4:30 - 5:30 PM</p>
-                        <h5 className="card-title">Arkava Luxury Ballroom Kemang</h5>
-                        <p className="card-text">Jl. Kemang Raya No.54, RW.2, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan</p>
-                        <a href="#" class="btn btn-primary">Google Maps</a>
+                <div className="card justify-content-end cardstd" data-aos="zoom-in" data-aos-duration="3000">
+                    <div className="card-body" >
+                        <h5 className="card-title fontSat" data-aos="zoom-in" data-aos-duration="4000" data-aos-delay="300">Saturday</h5>
+                        <p className="card-text font2nd">2nd July 2022</p>
+                        <h5 className="card-title fontAkad">Akad</h5>
+                        <p className="card-text fontAt">AT: 4:30 - 5:30 PM</p>
+                        <h5 className="card-title fontArkava">Arkava Luxury Ballroom Kemang</h5>
+                        <p className="card-text fontJl">Jl. Kemang Raya No.54, RW.2, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan</p>
+                        <a class="btn btn-primary">Google Maps</a>
                     </div>
                 </div>
             </div>
