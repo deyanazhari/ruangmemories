@@ -90,7 +90,7 @@
 
 @media screen and (max-width:540px){
   .home-section {
-    height: 70vh !important;
+    min-height: 90vh !important;
   }
   .heading-name {
     font-size: 40px !important;
