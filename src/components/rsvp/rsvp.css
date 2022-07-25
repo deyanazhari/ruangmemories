@@ -53,6 +53,6 @@
     font-size: 30px;
 }
 .scroll-message{
-    height:100px !important;
+    max-height:100px !important;
     max-width:500px !important;
 }
