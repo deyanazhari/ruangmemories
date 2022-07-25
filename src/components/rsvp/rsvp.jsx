@@ -3,8 +3,6 @@ import { Container, Card,Row,Col,Form,Button} from "react-bootstrap";
 import './rsvp.css';
 import axios from 'axios';
 
-const api = 'https://weddingbewok.herokuapp.com'
-
 class rsvp extends React.Component{
     constructor(){
         super()

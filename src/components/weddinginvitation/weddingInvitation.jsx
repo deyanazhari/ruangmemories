@@ -17,6 +17,7 @@ function weddingInvitation(){
         <h2 className="textwedding2 mx-auto text-center " data-aos="zoom-in" data-aos-duration="2000">Vicky & Yudha</h2>
         <div className="mx-auto">
         <Button 
+            href="https://calendar.google.com/calendar/u/0/r/day/2022/8/20?tab=rc&pli=1"
               variant="light"
               className="button  "
               ><FaCalendarCheck className="enve "/> Open Invitation</Button>{' '}
