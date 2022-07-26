@@ -86,26 +86,9 @@
   padding-bottom : 15% !important;
 }
 
-/* @media screen and (max-width:540px){
+@media screen and (max-width:540px){
   .home-section {
     min-height: 85% !important;
   }
-  .heading-name {
-    font-size: 50px !important;
-  }
-  .home-header {
-    text-align: center;
-    padding-top: 120px !important;
-  }
-  .but{
-    padding-bottom : 60% !important;
-  }
-  .heading {
-    font-size: 13px !important;
-    color: whitesmoke;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
-    padding-top: 50px !important;
-  }
-      
   
-} */
+}
