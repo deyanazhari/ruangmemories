@@ -12,11 +12,11 @@ function staysSafe (){
         <>
         <Container fluid className="back">
             <Container>
-                <Row className="mx-auto text-center pb-1">
+                <Row className="mx-auto text-center p-3">
                     <img  className="icon mx-auto "/>
                     <h6 className="textstay">It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event:</h6>
                 </Row>
-                <Row className="mx-auto text-center pt-2">
+                <Row className="mx-auto text-center pt-2 px-4">
                     <Col lg={2} className="mx-auto col-6" >
                     <img src={mask} className="icon"/>
                     <p className="textstay">Face Mask</p>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,900;1,500&display=swap');
 .wedding{
      width: 100%;
-     min-height: 110vh !important;
+     min-height: 100% !important;
      background-size: cover; 
      background-image:linear-gradient(0deg, rgba(57,60,59,1) 30%, rgba(57,60,59,0.020045518207282953) 100%), url(../../Assets/Gallery/image6.jpg);
     background-position: center;
@@ -47,11 +47,19 @@ padding-top: 200px !important;
 .logowed{
   padding-top: 150px !important;
 }
+.buttoncallendar{
+  border-radius: 20px !important;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+}
 @media screen and (max-width:540px){
   .wedding{
-    min-height: 85vh;
+    min-height: 85% !important;
   }
   .logowed{
-    padding-top: 250px !important;
+    padding-top: 90% !important;
   }
 }

@@ -7,10 +7,12 @@ class rsvp extends React.Component{
     constructor(){
         super()
         this.state = {
-            users: [{
-                name: "udin",
-                comments: ""
-            }],
+        users:[],
+        nama: null,
+        person: null,
+        comments: null,
+        attend: true, 
+
         }
     }
     componentWillMount(){
@@ -24,50 +26,101 @@ class rsvp extends React.Component{
             
         })
     }
+    saveDataToAPI(e){
+        e.preventDefault()
+        const apiUrl = 'https://weddingbewok.herokuapp.com/attendance'
+        const attendance = {
+        name :this.state.nama,
+        person:this.state.person,
+        comments:this.state.comments,
+        attend: this.state.attend
+        }
+        axios.post(apiUrl,attendance)
+        .then( Resp => {
+            let users = this.state.users
+            users.push( Resp.data )
+            this.setState({})
+        })
+    
+    }
     render(){
+        const { users } = this.state
         return(
         <Container fluid className="rsvpBack">
+            { users.length < 1 && <div>loading...</div> }
+            <pre>debug nama: { this.state.nama } </pre>
+            <pre>debug person: { this.state.person } </pre>
+            <pre>comments person: { this.state.comments } </pre>
+            <pre>attend: { this.state.attend } </pre>
         <Container fluid className="rsvpFront">
             <Row className="pt-5">
             <Card className="mb-3 mx-auto cardrsvp card-color">
                     <Card.Body>
                     <Row className="g-0">
                     <Col md={4}>
-                    <Card.Title className="text-start font-rsvp">
+                    <Card.Title className="text-center font-rsvp">
                     Rsvp
                     </Card.Title>
                     <Card.Text className=" font-prep">Please kindly help us prepare everything better by confirming your attendance to our wedding event with the following RSVP form :</Card.Text>
                     </Col>
                     <Col md={8}>
-                    <Form md={8}>
+                    <Form md={8} 
+                    method="post"
+                    onSubmit={ (e) => this.saveDataToAPI(e) }
+                    >
                         <Form.Group className="mb-3 text-left" controlId="formBasicEmail">
-                        <Card.Title className="text-start" style={{color:'white'}} >
-                    Rsvp
-                    </Card.Title>
-                            <Form.Control type="name" placeholder="Enter Name" />
+                            <Form.Control 
+                            type="text" 
+                            placeholder="Enter Name" 
+                            name="nama" 
+                            onChange={(e) =>{
+                                this.setState({ nama: e.target.value})
+                            }}
+                            />
                         </Form.Group>
-                        <Form.Select aria-label="Default select example">
-                        <option>Number of Guest </option>
-                        <option value="1">3</option>
-                        <option value="2">2</option>
-                        <option value="3">1</option>
-                        </Form.Select>
-                        <Form.Group className="mb-2" controlId="formBasicCheckbox">
+                        <Form.Group className="mb-3 text-left" controlId="formBasicEmail">
+                            <Form.Control
+                             type="text"
+                            placeholder="Number of Guest" 
+                            name="person" 
+                            onChange={(e) =>{
+                                this.setState({ person: e.target.value})
+                            }}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-3 pt-3 text-start" controlId="formBasicText" >
+                            <Form.Control 
+                            type="text" 
+                            placeholder="Please leave us a message" 
+                            name="comments" 
+                            onChange={(e) =>{
+                                this.setState({ comments: e.target.value})
+                            }}
+                            />
+                        </Form.Group>
+                        <Form.Group className="mb-2 text-start" controlId="formBasicCheckbox" >
                         <Form.Check 
                         type="radio"
                         id="checkbox"
+                        value= "true"
                         style={{color:'white'}}
                         label="Yes. I will attend"
+                        onChange={(e) =>{
+                            this.setState({ attend: e.target.value})
+                        }}
                          />
                          <Form.Check 
                          style={{color:'white'}}
                         type="radio"
+                        value="false"
                         id="checkbox"
                         label="Sorry, I can't attend"
+                        onChange={(e) =>{
+                            this.setState({ attend: e.target.value})
+                        }}
                          />
                         </Form.Group>
-                        
-                        <Button variant="primary" type="submit">
+                        <Button className="button-rsvp" type="submit">
                             Submit Rsvp
                         </Button>
                         </Form>
@@ -87,15 +140,9 @@ class rsvp extends React.Component{
                     </Col>
                     <Col md={8}>
                     <Form md={8} classNmae="float-right">
-                        <Form.Group className="mb-3 text-left" controlId="formBasicEmail">
-                            <Form.Control type="name" placeholder="Name" />
-                        </Form.Group>
-                        <Form.Group className="mb-3 text-left" controlId="formBasicEmail">
-                            <Form.Control type="text" placeholder="Please leave us a message" />
-                        </Form.Group>
-                        <Button variant="primary" type="submit" >
-                            Send Wish
-                        </Button>
+                        
+                        
+                        
                         </Form>
                         <Row className="pt-2">
                         <Card className="pb-3 message-color border-0 ">

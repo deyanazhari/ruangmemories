@@ -1,6 +1,14 @@
 .padd{
     padding-top: 50px !important;
     padding-bottom: 40px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    
+}
+.cardstory{
+    background-color: #393c3b;
+    border-radius: 10px !important;
+    
     
 }
 .cardlove {
@@ -8,50 +16,60 @@
 }
 .cardtext{
     text-align:justify;
+    color: white;
+    padding-left: 20px !important;
+    font-size: 12px;
 }
 
 .cardtitle{
     text-align: start;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px !important;
+}
+.cardtitle1{
+    padding-left: 10px !important;
+    text-align:center;
+    font-size: 30px !important;
+    font-family: 'Great Vibes', cursive;
+    color: #9f9263
 }
 .cardimg{
-    max-width: 100px !important;
-    height: 200px !important;
+    
+        width: 159px !important;
+        height: 276px !important;
     
 }
 .cardimg1{
-    max-width: 100px !important;
-    height: 200px !important;
+       
+        width: 159px !important;
+        height: 276px !important;
     
 }
 .colimg{
-    padding-top: 10px !important;
+    padding-top: 200px !important;
     padding-left: 50px !important;
+    
 }
 .colimg1{
-    padding-top: 10px !important;
-    padding-right:50px !important
+    padding-top: 180px !important;
+    
 }
 
-@media screen and (min-width:540px){
-    
-    .cardimg{
-        max-width: 100% !important;
-        width: 319px !important;
-        height: 553px !important;
-        
-        
-        
-    }
-    .cardimg1{
-        max-width: 100% !important;
-        width: 319px !important;
-        height: 553px !important;
-        
-    }
+@media screen and (max-width:540px){
     .colimg{
-        padding-top: 200px !important;
+        padding-top: 10px !important;
+       
+        
     }
     .colimg1{
-        padding-top: 180px !important;
+        padding-top: 10px !important;
+        
+        
     }
+    .padd{
+        padding-left: 5 px !important;
+        padding-right: 5 px !important;
+    }
+    
     }

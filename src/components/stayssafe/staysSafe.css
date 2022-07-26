@@ -1,6 +1,6 @@
 .icon{
-    width: 100px !important;
-    height: 90px !important;
+    width: 50px !important;
+    height: 60px !important;
 }
 
 .back{
@@ -10,5 +10,8 @@
 }
 
 .textstay{
-    color:white
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
 }

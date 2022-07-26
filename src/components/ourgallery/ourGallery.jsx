@@ -16,49 +16,49 @@ function ourGallery (){
     return(
         <>
         <div className="container-fluid back">
-        <div className="container">
-            <div>
-                <h1 style={{color:'white'}}>Our Gallery</h1>
+        <div className="container pt-3">
+            <div >
+                <h1 className="our">Our Gallery</h1>
             </div>
-            <div className="row">
-                <div className="col-md-6 col-6 mb-3">
+            <div className="row g-2">
+                <div className="col-sm-6 col-6 mb-1">
                     <a href={image1} data-lightbox="mygallery" data-aos="zoom-in">
                         <img src={image1} className="img-fluid gallery" data-aos="zoom-in" />
                     </a>
                 </div>
-                <div className="col-md-6 col-6 mb-3">
+                <div className="col-sm-6 col-6 mb-1">
                     <a href={image2} data-aos="zoom-in" >
                         <img src={image2} className="img-fluid gallery" data-aos="zoom-in"/>
                     </a>
                 </div>
-                <div className="col-md-8 col-8 mb-3">
+                <div className="col-sm-8 col-8 mb-1">
                 <a href={image3}>
                         <img src={image5} className="img-fluid gallery" data-aos="zoom-in"/>
                     </a>
                 </div>
-                <div className="col-md-4 col-4">
-                    <div className="col-lg-12 col-12 mb-3">
+                <div className="col-sm-4 col-4">
+                    <div className="col-lg-12 col-12 mb-1">
                     <a href={image4} data-lightbox="mygallery">
                             <img src={image4} className="img-fluid gallery" data-aos="zoom-in"/>
                         </a>
                     </div>
-                    <div className="col-md-12 col-12 mb-3">
+                    <div className="col-sm-12 col-12 mb-1">
                     <a href={image4} data-lightbox="mygallery">
                             <img src={image5} className="img-fluid gallery" data-aos="zoom-in"/>
                         </a>
                     </div>
                 </div>
-                <div className="col-md-12 col-12 mb-3">
+                <div className="col-sm-12 col-12 mb-1">
                     <a href={image10} data-lightbox="mygallery">
                         <img src={image10} className="img-fluid gallery" data-aos="zoom-in"/>
                     </a>
                 </div>
-                <div className="col-md-6 col-6 mb-3">
+                <div className="col-sm-6 col-6 mb-1">
                     <a href={image4} data-lightbox="mygallery">
                         <img src={image4} className="img-fluid gallery " data-aos="zoom-in"/>
                     </a>
                 </div>
-                <div className="col-md-6 col-6 mb-3">
+                <div className="col-sm-6 col-6 mb-1">
                     <a href={image4} data-lightbox="mygallery">
                         <img src={image4} className="img-fluid gallery" data-aos="zoom-in"/>
                     </a>

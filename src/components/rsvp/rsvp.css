@@ -33,24 +33,34 @@
     font-weight: 500;
     color: #555f77;
 }
-
+.form-select{
+    
+    color: #555f77;
+}
+.button-rsvp{
+    border-radius: 5px;
+    background-color: #9f9263;
+    font-size: 13px;
+}
 .font-wishes{
     color:#ad9f69;
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
-    padding-top: 120px !important;
+    padding-top: 60px !important;
 }
 .font-prep{
     color:white;
     font-family: 'Faustina', sans-serif;
-    padding-right:5px;
+    padding-right:8px;
     font-size: 10px;
-    text-align: justify;
+    text-align: center;
 }
 .font-rsvp{
     color:#ad9f69;
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
+    
+    padding-top:55px
 }
 .scroll-message{
     max-height:100px !important;
