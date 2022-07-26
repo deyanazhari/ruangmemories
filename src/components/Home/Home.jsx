@@ -33,7 +33,6 @@ function Home(){
         <Col  className="home-header">
               <h1 className="heading" data-aos="zoom-in" data-aos-duration="2000">
                 The Wedding of
-                
               </h1>
               <h1 className="heading-name" data-aos="zoom-in" data-aos-duration="3000">
                 Visky & Yudha
@@ -52,10 +51,10 @@ function Home(){
               <h1 className="text3">
               You're Invited
               </h1>
-              <div className=" mx-auto">
+              <div className=" mx-auto but">
               <Button 
               variant="light"
-              className="button but"
+              className="button"
               href="https://react-bootstrap.netlify.app/components/spinners/"
               ><FcInvite className="enve"/> Open Invitation</Button>{' '}
               </div>

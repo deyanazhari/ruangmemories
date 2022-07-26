@@ -1,6 +1,6 @@
 .home-section {
      width: 100%;
-     min-height: 100vh;
+     min-height: 100%;
      background-size: cover; 
     background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Gallery/image5.jpg);
     background-position: center;
@@ -11,7 +11,7 @@
   }
   .home-header {
     text-align: center;
-    padding-top: 100px !important;
+    padding-top: 120px !important;
 
   }
   .home-content {
@@ -21,6 +21,7 @@
   .heading {
     font-size: 13px !important;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+    padding-top: 50px !important;
   }
   
   .heading-name {
@@ -48,10 +49,10 @@
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
   }
   .text2{
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
   }
@@ -72,17 +73,18 @@
 
 /* Button */
 .button{
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 400;
   color: rgb(66, 66, 66);
+  border-radius: 20px;
 }
 .enve{
   size: 15px;
 }
 .but{
-  border-radius: 20px;
+  padding-bottom:10% !important
 }
 
 @media screen and (max-width:540px){
