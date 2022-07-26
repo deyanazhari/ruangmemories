@@ -8,7 +8,7 @@
   }
   .home-header {
     text-align: center;
-    padding-top: 120px !important;
+    padding-top: 60% !important;
 
   }
   .home-content {
@@ -88,7 +88,7 @@
 
 @media screen and (max-width:540px){
   .home-section {
-    min-height: 100% !important;
+    min-height: 80% !important;
   }
   .heading-name {
     font-size: 50px !important;
@@ -98,7 +98,7 @@
     padding-top: 120px !important;
   }
   .but{
-    padding-bottom : 100% !important;
+    padding-bottom : 60% !important;
   }
       
   
