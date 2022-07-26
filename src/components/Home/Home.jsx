@@ -27,13 +27,11 @@ function Home(){
         <>
 <Container fluid className="home-section " id="home" data-aos="fade-down"
      data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-      
-    <Container  className="home-content">
-        <Row>
-        <Col  className="home-header">
+              <div className="home-header">
               <h1 className="heading" data-aos="zoom-in" data-aos-duration="2000">
                 The Wedding of
               </h1>
+              </div>
               <h1 className="heading-name" data-aos="zoom-in" data-aos-duration="3000">
                 Visky & Yudha
                 {/* <strong className="main-name"> SOUMYAJIT BEHERA</strong> */}
@@ -58,15 +56,12 @@ function Home(){
               href="https://react-bootstrap.netlify.app/components/spinners/"
               ><FcInvite className="enve"/> Open Invitation</Button>{' '}
               </div>
-            </Col>
             <ReactAudioPlayer
               src={saxo}
               autoPlay
               aria-label="music"
               
             />
-        </Row>
-    </Container>
 </Container>
 <Wedding/>
 <Bride/>
