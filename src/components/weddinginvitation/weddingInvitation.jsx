@@ -20,7 +20,7 @@ function weddingInvitation(){
             href="https://calendar.google.com/calendar/u/0/r/day/2022/8/20?tab=rc&pli=1"
               variant="light"
               className="buttoncallendar"
-              ><FaCalendarCheck className="enve "/> Open Invitation</Button>{' '}
+              ><FaCalendarCheck className="enve "/> Open Calendar</Button>{' '}
               </div>
         </div>
         <div className="mx-auto text-center logowed">

@@ -10,7 +10,7 @@ import './staysSafe.css';
 function staysSafe (){
     return(
         <>
-        <Container fluid className="back">
+        <Container fluid className="back" id="staysafe">
             <Container>
                 <Row className="mx-auto text-center p-3">
                     <img  className="icon mx-auto "/>

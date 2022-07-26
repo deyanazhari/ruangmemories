@@ -1,5 +1,6 @@
 import React, {useEffect } from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
+import saxo from "../../Assets/music/saxo.mp3"
 import './Home.css';
 import Wedding from "../weddinginvitation/weddingInvitation.jsx"
 import Bride from "../bridegroom/brideGroom.jsx"
@@ -14,15 +15,19 @@ import Footer from "../footer/Footer"
 import {FcInvite} from "react-icons/fc";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import useSound from 'use-sound';
+import ReactAudioPlayer from 'react-audio-player';
 function Home(){
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
     return (
         <>
 <Container fluid className="home-section " id="home" data-aos="fade-down"
      data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+      
     <Container  className="home-content">
         <Row>
         <Col  className="home-header">
@@ -31,7 +36,7 @@ function Home(){
                 
               </h1>
               <h1 className="heading-name" data-aos="zoom-in" data-aos-duration="3000">
-                Vicky & Yudha
+                Visky & Yudha
                 {/* <strong className="main-name"> SOUMYAJIT BEHERA</strong> */}
               </h1>
               <h1 className="text">
@@ -51,11 +56,17 @@ function Home(){
               <Button 
               variant="light"
               className="button but"
+              href="https://react-bootstrap.netlify.app/components/spinners/"
               ><FcInvite className="enve"/> Open Invitation</Button>{' '}
               </div>
             </Col>
+            <ReactAudioPlayer
+              src={saxo}
+              autoPlay
+              aria-label="music"
+              
+            />
         </Row>
-        
     </Container>
 </Container>
 <Wedding/>
