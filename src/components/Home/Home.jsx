@@ -40,9 +40,11 @@ function Home(){
               Saturday, 2nd July 2022
               </h1>
               <br/>
+              <div className="pt-5">
               <h1 className="text1">
               Dear,
               </h1>
+              </div>
               <h1 className="text2">
               SKOTIPALIM
               </h1>

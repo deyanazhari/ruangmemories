@@ -1,7 +1,7 @@
 .home-section {
      width: 100%;
-     min-height: 110vh;
-     background-size: cover; 
+     min-height: 100vh;
+     background-size:cover;
     background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Gallery/image5.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -9,7 +9,6 @@
   }
   .home-header {
     text-align: center;
-    padding-top: 10% !important;
   }
   .home-content {
     color: whitesmoke;
@@ -19,7 +18,7 @@
     font-size: 13px !important;
     color: whitesmoke;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
-    padding-top: 50px !important;
+    padding-top: 10% !important;
   }
   
   .heading-name {
@@ -40,7 +39,7 @@
   .text1{
     font-size: 11px !important;
     color: whitesmoke;
-    padding-top: 80px !important;
+    padding-top: 10% !important;
     text-align: center;
     font-weight: 300;
     font-family: 'Nunito', sans-serif;
@@ -55,10 +54,10 @@
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
   }
   .text3{
-    font-size: 12px;
+    font-size: 13px;
     color: whitesmoke;
     font-family: 'Nunito', sans-serif;
-    padding-top: 10px;
+    padding-top: 5%;
     padding-bottom: 10px;
     font-weight: 300;
     font-style: italic;
@@ -72,7 +71,7 @@
 
 /* Button */
 .button{
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -83,15 +82,15 @@
   size: 15px;
 }
 .but{
-  padding-bottom : 15% !important;
+  padding-bottom : 10% !important;
 }
 
-@media screen and (max-width:540px){
+@media screen and (max-width:700px){
   .home-section {
-    min-height: 85% !important;
+    min-height: 85vh !important;
   }
   .but{
-    padding-bottom : 45% !important;
+    padding-bottom : 50% !important;
   }
   .heading-name {
     font-size: 50px !important;
@@ -105,5 +104,10 @@
     text-align: center;
     padding-top: 40% !important;
   }
-  
+  .text1{
+    padding-top: 200px;
+  }
+  .heading{
+    padding-top:20% !important;
+  }
 }
