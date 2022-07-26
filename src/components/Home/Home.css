@@ -8,7 +8,7 @@
   }
   .home-header {
     text-align: center;
-    padding-top: 60% !important;
+    padding-top: 100px !important;
 
   }
   .home-content {
@@ -23,7 +23,7 @@
   }
   
   .heading-name {
-    font-size: 45px !important;
+    font-size: 65px !important;
     font-family: 'Great Vibes', cursive;
     /* padding-left: 45px !important; */
     color: #c3b47d;
@@ -83,12 +83,12 @@
   size: 15px;
 }
 .but{
-  padding-bottom : 30% !important;
+  padding-bottom : 15% !important;
 }
 
-@media screen and (max-width:540px){
+/* @media screen and (max-width:540px){
   .home-section {
-    min-height: 80% !important;
+    min-height: 85% !important;
   }
   .heading-name {
     font-size: 50px !important;
@@ -100,6 +100,12 @@
   .but{
     padding-bottom : 60% !important;
   }
+  .heading {
+    font-size: 13px !important;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
+    padding-top: 50px !important;
+  }
       
   
-}
+} */

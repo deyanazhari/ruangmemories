@@ -32,7 +32,7 @@ function Home(){
                 The Wedding of
               </h1>
               </div>
-              <h1 className="heading-name" data-aos="zoom-in" data-aos-duration="3000">
+              <h1 className="heading-name" data-aos="" data-aos-duration="">
                 Visky & Yudha
                 {/* <strong className="main-name"> SOUMYAJIT BEHERA</strong> */}
               </h1>
