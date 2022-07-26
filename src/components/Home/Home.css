@@ -17,6 +17,7 @@
   }
   .heading {
     font-size: 13px !important;
+    color: whitesmoke;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.486);
     padding-top: 50px !important;
   }
@@ -82,20 +83,22 @@
   size: 15px;
 }
 .but{
-  
+  padding-bottom : 30% !important;
 }
 
 @media screen and (max-width:540px){
   .home-section {
-    min-height: 100vh !important;
+    min-height: 100% !important;
   }
   .heading-name {
     font-size: 50px !important;
   }
   .home-header {
     text-align: center;
-    padding-top: 100px !important;
-
+    padding-top: 120px !important;
+  }
+  .but{
+    padding-bottom : 100% !important;
   }
       
   
