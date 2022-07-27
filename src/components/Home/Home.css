@@ -90,7 +90,7 @@
     min-height: 85vh !important;
   }
   .but{
-    padding-bottom : 50% !important;
+    padding-bottom : 40% !important;
   }
   .heading-name {
     font-size: 50px !important;
@@ -106,8 +106,5 @@
   }
   .text1{
     padding-top: 150px;
-  }
-  .heading{
-    padding-top:25% !important;
   }
 }
