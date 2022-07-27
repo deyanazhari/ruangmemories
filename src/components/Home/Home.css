@@ -88,6 +88,11 @@
 @media screen and (max-width:700px){
   .home-section {
     min-height: 85vh !important;
+    background-size:cover;
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.258140756302521) 0%, rgba(0,0,0,0.26) 100%), url(../../Assets/Gallery/image5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   .but{
     padding-bottom : 40% !important;
