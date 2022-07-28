@@ -151,7 +151,7 @@ class rsvp extends React.Component{
                         {this.state.users.map((users,idx) => (
                             
                             <ul>
-                            <Card>
+                            <Card >
                             <Card.Title key={idx} className="fontli">{users.name}</Card.Title>
                             <Card.Text key={idx} className="fontli">{users.comments}</Card.Text>
                             </Card>

@@ -16,7 +16,7 @@
     overflow:scroll;
 }
 .cardcomment{
-    width:400px !important;
+    width:500px !important;
     max-height : 50px;
 }
 .card-color{
@@ -27,11 +27,13 @@
     background-color: #00000000;
 }
 .fontli{
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
     color: #555f77;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
 }
 .form-select{
     
@@ -63,6 +65,9 @@
     padding-top:55px
 }
 .scroll-message{
-    max-height:100px !important;
+    max-height:120px !important;
     max-width:500px !important;
+}
+.cardwish{
+    max-height: 150px;
 }

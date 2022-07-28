@@ -11,8 +11,8 @@ function saveTheDate(){
                 <h1 style={{color:"white"}} className="fontSave" data-aos="zoom-in" data-aos-duration="2000">Save The Date</h1>
             </div>
         <div className="row">
-            <div className="col-sm-6 my-4 ">
-                <div className="card justify-content-end cardstd" data-aos="zoom-in" data-aos-duration="3000">
+        <div className="col-sm-6 px-4 pb-4">
+                <div className=" card " data-aos="zoom-in" data-aos-duration="3000">
                     <div className="card-body" >
                         <h5 className="card-title fontSat" data-aos="zoom-in" data-aos-duration="4000" data-aos-delay="300">Saturday</h5>
                         <p className="card-text font2nd">2nd July 2022</p>
@@ -24,8 +24,8 @@ function saveTheDate(){
                     </div>
                 </div>
             </div>
-            <div className="col-sm-6 my-4 ">
-                <div className="card justify-content-end cardstd" data-aos="zoom-in" data-aos-duration="3000">
+            <div className=" col-sm-6 px-4 ">
+                <div className="  card " data-aos="zoom-in" data-aos-duration="3000">
                     <div className="card-body" >
                         <h5 className="card-title fontSat" data-aos="zoom-in" data-aos-duration="4000" data-aos-delay="300">Saturday</h5>
                         <p className="card-text font2nd">2nd July 2022</p>
@@ -37,9 +37,10 @@ function saveTheDate(){
                     </div>
                 </div>
             </div>
-            <div class="contCd col-sm-12 col-12 mx-auto">
+        </div>
+        <div class="contCd">
                 <h1 id="headline" className="textCd pt-3">Countdown To The Big Day</h1>
-                <div id="countdown" className="">
+                <div id="countdown" className="pe-3">
                     <ul className="text-center">
                     <li className="col-3 text-center"><span id="days"></span>Days</li>
                     <li className="col-3 text-center"><span id="hours"></span>Hours</li>
@@ -48,7 +49,6 @@ function saveTheDate(){
                     </ul>
                 </div>
             </div>
-        </div>
         </Container>
         </Container>
         
